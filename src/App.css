@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.max-20 {
+  height: 20px;
+}
+.max-50 {
+  height: 50px;
+}
+.max-100 {
+  height: 100px;
+}
+
+.add-credit-card {
+  background-color: #ff8d38 !important;
+  color: #ffffff !important;
+  float: right;
+}
+
+.outer-card {
+  padding :7px !important;
+}
+
+.outer-card-view-panel {
+  padding :80px !important;
+}
+
+.list-card-title {
+  float: left;
+}
+
+.create-card-panel {
+  display: none;
+}
+.card-view {
+  background-color: lightskyblue !important;
+  height: 100px;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
